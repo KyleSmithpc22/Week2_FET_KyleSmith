@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(233, 250, 156, 0.973);
+}
+
+h1, h2, h3 {
+    color: rgb(6, 197, 255);
+}
+
+ul {
+    color: rgb(6, 197, 255);
+    border-style: solid;
+    border-color: darkorange;
+    border-radius: 5px
+}
+
+/* element selector */
+td {
+    color: gray;
+    background-color: blue;
+    border: dotted;
+    border-width: 3px;
+    border-color: red;
+    border-radius: 5px;
+    height: 200px;
+    text-align: center;
+}
+
+/* id selector */
+#large-paragraph {
+    font-size: 100px;
+}
+
+/* class selector */
+.shadow-text {
+    text-shadow: deeppink 1px 1px
+}
+
+img {
+    height: 150px;
+}
+
+p {
+    color: rgb(255, 0, 200);
+}
+
+div {
+    background-color: rgb(255, 0, 0);
+    border-style: solid;
+    border-color: darkorange;
+    border-radius: 5px
+}
